@@ -27,7 +27,7 @@
 
 .a-button-secondary{
     color: var(--lightTextParagraphError);
-    border: 1px solid var(--lightStrokeButtonSecondaryErrorDefault);
+    border: 2px solid var(--lightStrokeButtonSecondaryErrorDefault);
     background: transparent;
     &:hover{
         color: var(--lightTextParagraphWhite);
