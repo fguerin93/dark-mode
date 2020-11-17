@@ -1,0 +1,9 @@
+.o-left-side {
+    position: fixed;
+    width: 32.8%;
+    height: 100%;
+    background: var(--lightSurfaceSurface2);
+    --padding-vertical: var(--base-space-14);
+    --padding-horizontal: var(--base-space-14);
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}

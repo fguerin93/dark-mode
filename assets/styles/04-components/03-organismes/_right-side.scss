@@ -1,0 +1,12 @@
+.o-right-side {
+    position: absolute;
+    right: 0;
+    width: 67.2%;
+    padding: 112px 18vw;
+    background: var(--lightSurfaceSurface1);
+
+    .a-divider {
+        width: calc(100% - 2*260px);
+        left: 260px;
+    }
+}

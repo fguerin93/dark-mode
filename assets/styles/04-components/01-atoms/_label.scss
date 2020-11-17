@@ -1,0 +1,13 @@
+.a-label{
+    @include text-body-1;
+    color: var(--lightTextParagraphBlack);
+    margin-bottom: var(--base-space-2);
+}
+
+// .a-label-error{
+//     // @include text-body-s;
+//     color: var(--state-error);
+//     &.hide{
+//         display: none;
+//     }
+// }

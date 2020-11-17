@@ -1,0 +1,40 @@
+{
+    "repository": "@hetic/G01-E04",
+    "personalAccessToken": "cd2296e2e156c057c9328b524cf4a3be8f2df3ae0df259fe1c864aa94379c10e",
+    "rules": [
+        {
+            "path": "assets/styles/01-utils/variables/colors.scss",
+            "filter": {
+                "types": [
+                    "color"
+                ]
+            },
+            "parsers": [
+                {
+                    "name": "camelcasify",
+                    "options": {
+                        "keys": [
+                            ["name"]
+                        ]
+                    }
+                },
+                {
+                    "name": "sort-by",
+                    "options": {
+                        "keys": [
+                            ["name"]
+                        ]
+                    }
+                },
+                {
+                    "name": "to-css-custom-properties",
+                    "options": {
+                        "formatConfig": {
+                            "selector": ":root"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

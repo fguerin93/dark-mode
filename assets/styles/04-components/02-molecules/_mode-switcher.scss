@@ -1,0 +1,6 @@
+.m-mode-switcher {
+    --padding-vertical: var(--base-space-8);
+    --padding-horizontal: var(--base-space-14);
+    padding: var(--padding-vertical) var(--padding-horizontal);
+    display: flex;
+}

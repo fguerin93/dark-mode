@@ -1,0 +1,15 @@
+.m-nav-list {
+    --margin-vertical: calc(var(--base-space-8)*2);
+    --margin-horizontal: 0px;
+    margin: var(--margin-vertical) var(--margin-horizontal);
+
+    li {
+        margin-bottom: var(--base-space-10);
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: var(--base-space-4);
+        }
+    }
+}

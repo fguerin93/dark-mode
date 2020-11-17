@@ -1,0 +1,19 @@
+.a-input{
+    @include text-body-1;
+    --padding-vertical: var(--base-space-4);
+    --padding-horizontal: var(--base-space-4);
+    --border-weight: 1px;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+    width: 100%;
+    height: 56px;
+    color: var(--lightTextSubtitle);
+    background: var(--lightBackgroundInputDefault);
+    border: var(--border-weight) solid var(--lightStrokeInputDefault);
+    border-radius: 8px;
+    margin-top: var(--base-space-2);
+    margin-bottom: var(--base-space-6);
+    &:focus{
+        border: var(--border-weight) solid var(--lightBackgroundButtonPrimaryBrandDefault);
+        outline: none;
+    }
+}

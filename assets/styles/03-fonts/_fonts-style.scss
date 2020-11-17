@@ -1,0 +1,22 @@
+.text-headline-1{
+    @include text-headline-1;
+    color: var(--lightTextHeadlineBrand);
+    margin-bottom: var(--base-space-14);
+}
+
+.text-headline-2{
+    @include text-headline-2;
+    color: var(--lightTextHeadlineWhite);
+    margin-bottom: var(--base-space-8);
+}
+
+.text-subtitle{
+    @include text-subtitle;
+    color: var(--lightTextHeadlineBrand);
+    margin-bottom: var(--base-space-2);
+}
+
+.text-body-1{
+    @include text-body-1;
+    color: var(--lightTextParagraphWhite);
+}

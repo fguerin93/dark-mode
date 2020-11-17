@@ -1,0 +1,31 @@
+@mixin text-headline-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+
+@mixin text-headline-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+@mixin text-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+@mixin text-body-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
